@@ -1,3 +1,289 @@
+body {
+  background-color: #c0c0c0;
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h3 {
+  display: inline;
+  font-family: Gobold High;
+  background: #FFFFFF;
+  opacity: .76;
+  padding: 5px;
+}
+
 h1 {
-  font-family: 
+  font-size: 10em;
+}
+
+h2 {
+  display: inline-block;
+  font-family: Gobold Thin;
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  display: inline-block;
+  font-family: Athelas;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: inline-block;;
+  font-family: Gobold;
+  margin: 10px;
+  padding: 10px 30px;
+  color: #E0E0E0;
+  background: #B8120C;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 2em;
+  border: 1px #E0E0E0 solid;
+}
+
+.header {
+  background: url("/Users/Stephen/Documents/General Assembly/Project 4/Fridge-Keeper/Header-take2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  min-height: 700px;
+
+}
+
+.headertext {
+  margin-left: 10%;
+  vertical-align: middle;
+  width: 40%;
+  text-align: center;
+
+}
+
+.header p {
+  color: #E0E0E0;
+  font-size: 37px;
+  margin-top: 40px;
+}
+
+.header a {
+  margin-top: 110px;
+  font-size: 55px;
+}
+
+.header img {
+  position: absolute;
+  height: 575px;
+  left: 810px;
+  top: 60px;
+}
+
+.summary {
+  background: url("/Users/Stephen/Documents/General Assembly/Project 4/Fridge-Keeper/summaryimage.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  min-height: 200px;
+  margin: 0;
+  display: flex;
+  text-align: center;
+}
+
+.summary p {
+  color: #E0E0E0;
+}
+
+.summaryleft {
+  text-align: center;
+  padding: 50px 0 0 0;
+  margin-left: 200px;
+  flex: 1;
+}
+
+.summaryleft img {
+  width: 100px;
+  height: 90px;
+}
+
+.summaryleft p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.arrowleft {
+  width: 19%;
+  text-align: center;
+  padding: 75px 0;
+  flex: 1;
+}
+
+.summarycenter {
+  text-align: center;
+  padding: 50px 0 0 0;
+  flex: 1;
+}
+
+.summarycenter img {
+  width: 100px;
+  height: 90px;
+}
+
+.summarycenter p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.arrowright {
+  text-align: center;
+  padding: 75px 0 0 0;
+  flex: 1;
+}
+
+.summaryright {
+  text-align: center;
+  padding: 50px 0;
+  margin-right: 200px;
+  flex: 1;
+}
+
+.summaryright img {
+  width: 100px;
+  height: 90px;
+}
+
+.summaryright p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.shoppinglist {
+  background: url("/Users/Stephen/Documents/General Assembly/Project 4/Fridge-Keeper/shoppinglistimage.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 490px;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.shoppinglisttext {
+  display: block;
+  height: auto;
+  margin-left: 540px;
+  margin-right: 210px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.shoppinglist h2 {
+  color: #000000;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.shoppinglist p {
+  color: #000000;
+  margin: 5px 10px 5px 10px;
+  font-size: 40px;
+}
+
+.shoppinglist img {
+  position: relative;
+  height: 400px;
+  left: 150px;
+  bottom: 230px;
+}
+
+.notifications {
+  background: url("/Users/Stephen/Documents/General Assembly/Project 4/Fridge-Keeper/Notifications.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 0;
+}
+
+.notifications h2 {
+  color: #E0E0E0;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.notifications p {
+  color: #E0E0E0;
+  position: relative;
+  margin-left: 150px;
+  bottom: 265px;
+  font-size: 40px;
+}
+
+.notifications img {
+  position: relative;
+  height: 400px;
+  left: 180px;
+  bottom: 100px;
+}
+
+.foodcalendar {
+  background: url("/Users/Stephen/Documents/General Assembly/Project 4/Fridge-Keeper/foodcalendar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.foodcalendartext {
+  display: block;
+  height: auto;
+  margin-left: 540px;
+  margin-right: 195px;
+  background-color: rgba(255, 255, 255, 0.93);
+}
+
+.foodcalendar h2 {
+  color: #000000;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.foodcalendar p {
+  color: #000000;
+  margin: 5px 10px 5px 10px;
+  font-size: 40px;
+}
+
+.foodcalendar img {
+  position: relative;
+  height: 400px;
+  left: 150px;
+  bottom: 230px;
+}
+
+.footer {
+  background: url("/Users/Stephen/Documents/General Assembly/Project 4/Fridge-Keeper/footer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  margin: 0;
+}
+
+.footer a {
+  display: inline-block;
+  position: relative;
+  font-size: 80px;
+  left: 110px;
+}
+
+.footer h3 {
+  display: inline-block;
+  position: relative;
+  font-size: 150px;
+  top: 53px;
+  left: 320px;
+  margin: 0;
 }
